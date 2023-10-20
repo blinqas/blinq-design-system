@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## BlinQ Design System
+
+https://beta.cva.style/getting-started/installation/
+
+1. Install the “Tailwind CSS IntelliSense” Visual Studio Code extension
+   https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+
+2. Add the following to your settings.json in VS Code:
+   {
+   "tailwindCSS.experimental.classRegex": [
+   ["cva\\(([^)]_)\\)", "[\"'`]([^\"'`]_)._?[\"'`]"],
+   ["cx\\(([^)]_)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+   ]
+   }

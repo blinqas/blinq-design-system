@@ -1,7 +1,7 @@
 {
   "name": "@blinqas/design-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -46,10 +46,7 @@
   },
   "keywords": [
     "blinq",
-    "design",
-    "system",
-    "blinq",
-    "as"
+    "design system"
   ],
   "author": "Denis Pokotylyuk",
   "license": "ISC",
